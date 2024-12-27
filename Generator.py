@@ -7,7 +7,7 @@ caracteres = string.ascii_letters + string.digits + string.punctuation
 while True:
     try:
         #Variable para la longitud
-        longitud = int(input("Ingrese la longitud de la contraseña: "));
+        longitud = int(input("Ingrese la longitud de la contraseña, recuerda que debe ser mayor a 8: "));
 
         if (longitud <= 7 ):
             print("La longitud de los caracteres debe ser mayor a 8, intente nuevamente");
